@@ -3,7 +3,7 @@
 ;; This is free and unencumbered software released into the public domain.
 
 ;; Author: Murphy McMahon
-;; URL: https://github.com/pandeiro
+;; URL: https://github.com/pandeiro/livid-mode
 ;; Version: 0.1.0
 ;; Package-Requires: ((skewer-mode "20130925") (s "20130905"))
 
