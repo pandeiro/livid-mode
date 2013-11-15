@@ -24,8 +24,13 @@ effects, so return values disappear into the ether.)
 
 ## Installation
 
-For right now, it's manual. Clone this repo, stick it in .emacs.d or
-wherever, and `(require 'livid-mode)`.
+### Package
+
+It's in marmalade, called `livid-mode`.
+
+### Manual
+
+Clone the repo, stick it in .emacs.d or wherever, and `(require 'livid-mode)`.
 
 ## Usage
 
