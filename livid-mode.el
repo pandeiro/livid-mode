@@ -1,4 +1,4 @@
-;;; livid.el --- Live browser eval of JavaScript every time a buffer changes
+;;; livid-mode.el --- Live browser eval of JavaScript every time a buffer changes
 
 ;; This is free and unencumbered software released into the public domain.
 
@@ -122,3 +122,5 @@ If everything is in order, it sends it the browser through the skewer connection
       (setq livid-last-seen ""))))
 
 (provide 'livid-mode)
+
+;;; livid-mode.el ends here
