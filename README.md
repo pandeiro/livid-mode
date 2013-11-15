@@ -6,11 +6,11 @@ functionality of browser-based HTML/JS/CSS editors who automatically
 evaluate code on every change.
 
 Whereas skewer allows you to evaluate the buffer or individual forms
-with commands/key-bindings, this just f'ing does it for you. What
+with commands/key-bindings, this **just f'ing does it** for you. What
 could be _angrier_ than that?
 
 However, code is **not** evaluated every single time the buffer changes. Here's
-what happens whenever Emacs runs its _after-changed-functions_ hook:
+what happens whenever Emacs runs its `after-changed-functions` hook:
 
 1. First, livid-mode can be paused. If it has been, nothing happens.
 2. Then, the trimmed contents are compared to the previously evaluated
